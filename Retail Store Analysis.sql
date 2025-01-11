@@ -71,7 +71,7 @@
 	ORDER BY 1,2;
 
 	-- Calculate the difference of sales per month
-	-- Put Query Expected output here
+	-- Put Query Expected output here of differenceblblabalbalb
 	SELECT *, previous_sale - current_revenue AS revenue_difference FROM 
 	(
 	SELECT EXTRACT (YEAR FROM order_date) AS year,
